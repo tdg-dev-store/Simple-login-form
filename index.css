@@ -1,0 +1,35 @@
+html, body { font-family: arial, sans-serif; }
+
+#logowanie {
+  padding: 20px;
+  background: #f2f2f2;
+  max-width: 320px;
+  margin: 0 auto;
+}
+#logowanie h1 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #9b9b8d;
+}
+#logowanie label, #logowanie input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+#logowanie input { padding: 10px; }
+#logowanie input[type=submit] {
+  background: #ad4343;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+#niepoprawne-dane {
+  padding : 10px;
+  margin-bottom: 10px;
+  background: #ffe7e7;
+  border: 1px solid #ff3e3e;
+  color: #c10000;
+  font-weight: bold;
+}
